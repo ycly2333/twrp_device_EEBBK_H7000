@@ -85,6 +85,12 @@ TW_THEME := portrait_hdpi
 TW_USE_TOOLBOX := true
 TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 
+# exFAT FS Support
+TW_INCLUDE_FUSE_EXFAT := true
+
+# NTFS Support
+TW_INCLUDE_FUSE_NTFS := true
+
 # System-as-root
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 
